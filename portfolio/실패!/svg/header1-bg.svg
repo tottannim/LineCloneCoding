@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920px" height="914px" viewBox="0 0 1920 914">
+<linearGradient id="linear_PSgrad_0">
+    <stop offset="0%" stop-color="rgb(17,17,21)" stop-opacity="1"/>
+    <stop offset="100%" stop-color="rgb(24,22,25)" stop-opacity="1"/>
+</linearGradient>
+
+<path fillRule="evenodd" d="M 0 0C 0 0 1920 0 1920 0 1920 0 1920 914 1920 914 1920 914 0 779 0 779 0 779 0 0 0 0Z" fill="url(#linear_PSgrad_0)"/></svg>
