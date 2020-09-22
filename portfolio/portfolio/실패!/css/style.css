@@ -1,0 +1,45 @@
+body {
+    width: 95%;
+  }
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Sawarabi Mincho', sans-serif;
+  }
+
+  header {
+    background:#e0e8f2 url(../svg/header1-bg.svg) no-repeat;
+    display: flex;
+    -webkit-background-size:100% 100%;
+  }
+  .main-container {
+    margin: 0 auto;
+    display: flex;
+
+    border: 1px solid #2f3649;
+    width: 90%;  
+  }
+
+  .top-nav{
+      display:flex;
+  }
+  .top-nav .navigation-menu-logo {
+    display: inline-block;
+    margin: 0;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  
+  .nav-width {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  a {
+      text-decoration: none;
+      color: #fff;
+  }
+  
+    /* nav css */
