@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 body {
@@ -43,6 +44,7 @@ nav {
 .navigation-menu {
   display: flex;
   justify-content: flex-end;
+  width: 400px;
 }
 
 .navigation-menu > li {
@@ -101,12 +103,13 @@ nav {
 
 .header-introduce .header-main-text {
   white-space: pre-line;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 64px;
   text-align: left;
   margin-bottom: 10px;
   letter-spacing: 5px;
+  height: 64px;
 }
 
 #HCJImage {
