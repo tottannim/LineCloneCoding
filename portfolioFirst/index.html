@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ジェホンのPortfolio</title>
     <script
       src="https://kit.fontawesome.com/2aed2b41a9.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style1.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap"
       rel="stylesheet"
@@ -35,7 +35,7 @@
             >
           </li>
           <li>
-            <a href="#"><span class="menu">スキル</span></a>
+            <a href="#skill"><span class="menu">スキル</span></a>
           </li>
           <li>
             <a href="#"><span class="menu">Portfolio</span></a>
@@ -57,7 +57,7 @@
             新しいことを習うのが好きです。よろしくお願いします。
           </h2>
           <div class="contact-me-wrap">
-            <div class="contact-me"><span>Contact Me</span></div>
+            <div class="contact-me"><a id="cont" target="_blank" href="contactMe.html"><span>Contact Me</span></div></a>
           </div>
         </div>
       </div>
@@ -67,18 +67,44 @@
 
     <section>
       <div class="section-wrap">
-        <div class="sub-header-subject">
-          <span>● 使えるスキル＆習ってるスキル</span>
+        <div class="subject-list-wrap">
+          <div class="subject-list">
+            <span class="skill" id="skill">スキル</span>
+          </div>
+          <div class="skillWrap">
+            <div>
+              <img src="img/HTML5.png" class="skillPng" ></i>
+              <span class="tip">HTML <br/>知識：★★★☆☆</span>
+            </div>
+            <div>
+              <img src="img/CSS3.png" class="skillPng"></i>
+              <span class="tip">CSS <br/>知識：★★★☆☆</span>
+            </div>
+            <div>
+              <img src="img/JavaScript.png" class="skillPng"></i>
+              <span class="tip javaScriptTip">JavaScript <br/>知識：★★☆☆☆</span>
+            </div>
+          </div>
         </div>
         <div class="subject-list-wrap">
           <div class="subject-list">
-            <span>Developer</span>
+            <span class="skill-span">後習いたいスキル</span>
           </div>
           <div class="skillWrap">
-            <div class="skillList1">HTML</div>
-            <div class="skillList2">CSS</div>
-            <div class="skillList3">JAVASCRIPT</div>
+            <div>
+              <img src="img/jQuery.png" class="skillPng" ></i>
+              <span class="tip">jQuery <br/>興味度：★★★★★</span>
+            </div>
+            <div>
+              <img src="img/react.png" class="skillPng"></i>
+              <span class="tip">React <br/>興味度：★★★★★</span>
+            </div>
+            <div>
+              <img src="img/php.jpg" class="skillPng"></i>
+              <span class="tip javaScriptTip">PHP <br/>興味度：★★★☆☆</span>
+            </div>
           </div>
+        </div>
         </div>
       </div>
     </section>
