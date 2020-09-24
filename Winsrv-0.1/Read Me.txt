@@ -2,4 +2,4 @@ Windows Server 2008弱点診断自動化ツール「BatchファイルとPython�
 
 ２０１８年リリーズ、大学校卒業課題
 
-私はWindows Server 2008を作業しました。
+私はWindows Server 2008の部分とPython pyqt5の部分を作りました。
