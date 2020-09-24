@@ -5,6 +5,6 @@ Windows Server 2008弱点診断自動化ツール「BatchファイルとPython�
 私はWindows Server 2008の部分とPython pyqt5の部分を作りました。
 
 
-全体的なフローは実行をしたらOS(Windows Server2008や2012、CentOs）の弱点を調べ、Windowsの場合txtファイルに出ます。
+全体的なフローは実行をしたらOS(Windows Server2008や2012、CentOs）の弱点を調べ、Windowsの場合調査結果がtxtファイルに出ます。
 
 txtをプログラム内Convertを押したら見やすくExecelファイルに変更するプログラムです。
