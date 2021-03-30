@@ -28,4 +28,3 @@ function CardSetting(transverse, length){
 }
 
 CardSetting(transverse, length);
-//
